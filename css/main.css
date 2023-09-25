@@ -1,0 +1,103 @@
+main {
+    text-align: center;
+}
+
+h2 {
+    margin: 2.5em 5em 1em 10em;
+    color: #335576;
+    text-align: left;
+}
+
+.orange-button {
+    border: none;
+    background-color: #DB7A4E;
+    color: white;
+    border-radius: 1em;
+    padding: 0.5em 2.5em;
+    font-size: 1em;
+    font-weight: lighter;
+    margin: 0.5em auto;
+    display: inline-block;
+}
+
+.orange-button:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    list-style-type: none;
+    padding: 2.5em 5em;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FEFAF5;
+    text-align: left;
+    color: #335576;
+}
+
+.hero>li:first-child {
+    text-align: left;
+}
+
+.hero>li:last-child {
+    text-align: right;
+}
+
+.hero>li:last-child img {
+    max-width: 75%;
+    max-height: 75%;
+}
+
+.recommendations {
+    margin: auto;
+    width: 75%;
+}
+
+.recommendations>li {
+    display: inline-block;
+    margin: auto;
+    padding: 1em;
+}
+
+.recommendations a {
+    position: relative;
+    display: inline-block;
+    min-width: 20em;
+    min-height: 30em;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, .2);
+    /* for Safari */
+    -webkit-background-clip: padding-box;
+    /* for IE9+, Firefox 4+, Opera, Chrome */
+    background-clip: padding-box;
+    color: white;
+    background-size: cover;
+    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.recommendations a:hover {
+    opacity: 0.95;
+}
+
+.recommendations .hawaii {
+    background-image: url("../assets/images/hawaii.jpg");
+}
+
+.recommendations .iceland {
+    background-image: url("../assets/images/iceland.jpg");
+}
+
+.recommendations .greece {
+    background-image: url("../assets/images/greece.jpg");
+}
+
+.recommendations a>span {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
