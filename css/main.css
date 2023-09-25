@@ -8,7 +8,7 @@ h2 {
     text-align: left;
 }
 
-.orange-button {
+.hero-orange-button {
     border: none;
     background-color: #DB7A4E;
     color: white;
@@ -20,7 +20,7 @@ h2 {
     display: inline-block;
 }
 
-.orange-button:hover {
+.hero-orange-button:hover {
     text-decoration: underline;
 }
 
@@ -82,15 +82,15 @@ h2 {
     opacity: 0.95;
 }
 
-.recommendations .hawaii {
+.recommendations__hawaii {
     background-image: url("../assets/images/hawaii.jpg");
 }
 
-.recommendations .iceland {
+.recommendations__iceland {
     background-image: url("../assets/images/iceland.jpg");
 }
 
-.recommendations .greece {
+.recommendations__greece {
     background-image: url("../assets/images/greece.jpg");
 }
 
